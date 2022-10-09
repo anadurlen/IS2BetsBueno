@@ -1,0 +1,47 @@
+
+VbusinessLogic.BLFacadeImplementation#gertaerakKopiatu(Ldomain/Event;Ljava/util/Date;)Zn
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java˜ ˜( "startingBlock*¤
+startingBlockn
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java˜  ˜(4©
+¦
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java— —(
+%0"
+__annotate*
+	WebMethod*
+
+edomain.Eventœ
+™
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java˜' ˜((
+edomain.Event"__annotation*
+
+%0®
+«
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java— —(
+%1"
+__annotate*
+	WebMethod*
+
+datejava.util.Date¡
+ž
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java˜/ ˜(3
+datejava.util.Date"__annotation*
+
+%1*
+1*‰
+1n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java™ ™(™
+–
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.javaš š(0
+bjava.lang.Boolean"__id*
+"""x
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.javaœ œ(
+"":
+edomain.Event:
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementation

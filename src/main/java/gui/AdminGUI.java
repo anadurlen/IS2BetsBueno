@@ -47,11 +47,9 @@ public class AdminGUI extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnNewButton_1;
 	
-	private Registered user;
 	private JButton jButtonEmaitzaIpini;
 	private JButton jButtonDesLogin;
 	private JFrame thisw;
-	private JButton btnNewButton_2;
 	private JButton btnGertaerakKopiatu;
 	
 	/**
@@ -67,7 +65,6 @@ public class AdminGUI extends JFrame {
 				try {
 					//if (ConfigXML.getInstance().isBusinessLogicLocal()) facade.close();
 				} catch (Exception e1) {
-					// TODO Auto-generated catch block
 					System.out.println("Error: "+e1.toString()+" , probably problems with Business Logic or Database");
 				}
 				System.exit(1);
@@ -112,11 +109,9 @@ public class AdminGUI extends JFrame {
 			JButton jButtonGertaerakEzabatu = new JButton(ResourceBundle.getBundle("Etiquetas").getString("GertaerakEzabatu")); //$NON-NLS-1$ //$NON-NLS-2$
 			jButtonGertaerakEzabatu.setForeground(Color.DARK_GRAY);
 			jButtonGertaerakEzabatu.setBackground(Color.PINK);
-			jButtonGertaerakEzabatu.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
+			jButtonGertaerakEzabatu.addActionListener((e) -> {
 					JFrame a = new GertaeraEzabatuGUI(new Vector<Event>());
 					a.setVisible(true);
-				}
 			});
 			jButtonGertaerakEzabatu.setBounds(239, 124, 232, 30);
 			jContentPane.add(jButtonGertaerakEzabatu);
@@ -139,11 +134,9 @@ public class AdminGUI extends JFrame {
 			jButtonCreateQuery.setBackground(Color.PINK);
 			jButtonCreateQuery.setBounds(10, 84, 213, 30);
 			jButtonCreateQuery.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateQuery"));
-			jButtonCreateQuery.addActionListener(new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent e) {
+			jButtonCreateQuery.addActionListener((ActionEvent e) -> {
 					JFrame a = new CreateQuestionGUI(new Vector<Event>());
 					a.setVisible(true);
-				}
 			});
 		}
 		return jButtonCreateQuery;
@@ -161,12 +154,9 @@ public class AdminGUI extends JFrame {
 			jButtonQueryQueries.setBackground(Color.PINK);
 			jButtonQueryQueries.setBounds(10, 44, 213, 30);
 			jButtonQueryQueries.setText(ResourceBundle.getBundle("Etiquetas").getString("QueryQueries"));
-			jButtonQueryQueries.addActionListener(new java.awt.event.ActionListener() {
-				public void actionPerformed(java.awt.event.ActionEvent e) {
+			jButtonQueryQueries.addActionListener((ActionEvent e) -> {
 					JFrame a = new FindQuestionsGUI();
-
 					a.setVisible(true);
-				}
 			});
 		}
 		return jButtonQueryQueries;
@@ -192,11 +182,9 @@ public class AdminGUI extends JFrame {
 			btnNewButton.setBackground(Color.PINK);
 			btnNewButton.setForeground(Color.DARK_GRAY);
 			btnNewButton.setBounds(239, 44, 232, 30);
-			btnNewButton.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
+			btnNewButton.addActionListener((e) -> {
 					JFrame a = new KuotakIpiniGUI(new Vector<Event>());
 					a.setVisible(true);
-				}
 			});
 		}
 		return btnNewButton;
@@ -207,11 +195,9 @@ public class AdminGUI extends JFrame {
 			btnNewButton_1.setBackground(Color.PINK);
 			btnNewButton_1.setForeground(Color.DARK_GRAY);
 			btnNewButton_1.setBounds(239, 84, 232, 30);
-			btnNewButton_1.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
+			btnNewButton_1.addActionListener((e) -> {
 					JFrame a = new GertaerakSortuGUI();
 					a.setVisible(true);
-				}
 			});
 		}
 		return btnNewButton_1;
@@ -221,11 +207,9 @@ public class AdminGUI extends JFrame {
 			jButtonEmaitzaIpini = new JButton(ResourceBundle.getBundle("Etiquetas").getString("EmaitzaIpini"));
 			jButtonEmaitzaIpini.setForeground(Color.DARK_GRAY);
 			jButtonEmaitzaIpini.setBackground(Color.PINK);
-			jButtonEmaitzaIpini.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
+			jButtonEmaitzaIpini.addActionListener((e) -> {
 					JFrame a = new EmaitzakIpiniGUI(new Vector<Event>());
 					a.setVisible(true);
-				}
 			});
 			jButtonEmaitzaIpini.setBounds(10, 124, 213, 30);
 		}
@@ -238,12 +222,10 @@ public class AdminGUI extends JFrame {
 			jButtonDesLogin = new JButton(ResourceBundle.getBundle("Etiquetas").getString("DesLogin")); //$NON-NLS-1$ //$NON-NLS-2$
 			jButtonDesLogin.setForeground(Color.WHITE);
 			jButtonDesLogin.setBackground(Color.DARK_GRAY);
-			jButtonDesLogin.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
+			jButtonDesLogin.addActionListener((ActionEvent e) -> {
 					JFrame a = new MainUserGUI();
 					a.setVisible(true);
 					thisw.setVisible(false);
-				}
 			});
 			jButtonDesLogin.setBounds(332, 208, 139, 28);
 		}
@@ -255,11 +237,9 @@ public class AdminGUI extends JFrame {
 			btnGertaerakKopiatu = new JButton(ResourceBundle.getBundle("Etiquetas").getString("GertaerakKopiatu")); //$NON-NLS-1$ //$NON-NLS-2$
 			btnGertaerakKopiatu.setForeground(Color.DARK_GRAY);
 			btnGertaerakKopiatu.setBackground(Color.PINK);
-			btnGertaerakKopiatu.addActionListener(new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
+			btnGertaerakKopiatu.addActionListener((e) -> {
 					JFrame a = new GertaerakKopiatuGUI();
 					a.setVisible(true);
-				}
 			});
 			btnGertaerakKopiatu.setBounds(239, 164, 232, 28);
 		}

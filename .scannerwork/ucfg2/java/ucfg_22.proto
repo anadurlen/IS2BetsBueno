@@ -1,0 +1,18 @@
+
+Fdomain.IntegerAdapter#unmarshal(Ljava/lang/String;)Ljava/lang/Integer;]
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/IntegerAdapter.java ("1*¡
+1]
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/IntegerAdapter.java (Î
+Ë
+]
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/IntegerAdapter.java ("	
+%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+sjava.lang.String"l
+]
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/IntegerAdapter.java (#
+	
+%0int:
+sjava.lang.StringB
+domain.IntegerAdapter

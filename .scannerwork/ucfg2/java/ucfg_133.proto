@@ -1,0 +1,37 @@
+
+)domain.Event#toString()Ljava/lang/String;T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.java] ]("1*ÿ
+1T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.java^	 ^(õ
+ò
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.java^	 ^(
+%0java.lang.Integer"__id*!*
+domain.Event"
+eventNumberù
+ö
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.java^	 ^(
+%1java.lang.String"__concat*
+
+%0java.lang.Integer*
+;ö
+ó
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.java^ ^($
+%2java.lang.String"__id*!*
+domain.Event"
+descriptionØ
+¨
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.java^	 ^($
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String"p
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.java^ ^(%
+
+%3java.lang.StringB
+domain.Event

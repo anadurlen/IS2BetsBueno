@@ -1,0 +1,59 @@
+
+,domain.Question#toString()Ljava/lang/String;Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java³ ³("1*ž
+1Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´	 ´(¦
+£
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´	 ´(
+%0java.lang.Integer"__id*'*%
+domain.Question"
+questionNumber¢
+Ÿ
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´	 ´(
+%1java.lang.String"__concat*
+
+%0java.lang.Integer*
+;Ÿ
+œ
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´ ´($
+%2java.lang.String"__id*!*
+domain.Question"
+
+question´
+±
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´	 ´($
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String¡
+ž
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´	 ´((
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+;Ä
+Á
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´+ ´(F
+%5java.lang.String".java.lang.Double#toString(D)Ljava/lang/String;*"
+java.lang.Double*
+""´
+±
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´	 ´(F
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.String"u
+Y
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.java´ ´(G
+
+%6java.lang.StringB
+domain.Question

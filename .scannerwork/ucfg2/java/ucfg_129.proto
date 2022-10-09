@@ -1,0 +1,16 @@
+
++domain.Event#getEventDate()Ljava/util/Date;T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaM M("1*â
+1T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaN	 N(–
+“
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaN	 N(
+%0java.util.Date"__id**
+domain.Event"
+	eventDate"n
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaN N(
+
+%0java.util.DateB
+domain.Event

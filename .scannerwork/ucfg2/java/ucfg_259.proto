@@ -1,0 +1,85 @@
+
+.domain.Registered#toString()Ljava/lang/String;[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java© ©("3*¬
+2[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«
+ «(ÑÎ
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«
+ «(
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+domain.Registered2getUsername()£
+ 
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«
+ «("
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+ ¤
+¡
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«
+ «(0
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+""¤
+¡
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«
+ «(6
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+: §
+¤
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«9 «(J
+%5java.lang.Double"__id*'*%
+domain.Registered"
+irabazitakoa¶
+³
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«
+ «(J
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.Double¥
+¢
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java«
+ «(P
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+ï¿½"w
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java« «(Q
+
+%7java.lang.String*Š
+3[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.javaª ª(	Ÿ
+œ
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.javaª ª(
+%0java.lang.String"__id**
+domain.Registered"
+mode*
+2
+1*­
+1[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java­
+ ­(ÑÎ
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java­
+ ­(
+%8java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+domain.Registered2getUsername()"w
+[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Registered.java­ ­(
+
+%8java.lang.StringB
+domain.Registered

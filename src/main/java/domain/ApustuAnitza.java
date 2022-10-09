@@ -1,6 +1,7 @@
 package domain;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Vector;
 
@@ -26,7 +27,7 @@ public class ApustuAnitza implements Serializable{
 	private Integer apustuAnitzaNumber;
 	private Date data;
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-	private Vector<Apustua> apustuak = new Vector<Apustua>();
+	private ArrayList<Apustua> apustuak = new ArrayList<>();
 	@XmlIDREF
 	private Registered user;
 	private String egoera;
@@ -77,11 +78,11 @@ public class ApustuAnitza implements Serializable{
 		this.data = data;
 	}
 
-	public Vector<Apustua> getApustuak() {
+	public ArrayList<Apustua> getApustuak() {
 		return apustuak;
 	}
 
-	public void setApustuak(Vector<Apustua> apustuak) {
+	public void setApustuak(ArrayList<Apustua> apustuak) {
 		this.apustuak = apustuak;
 	}
 	

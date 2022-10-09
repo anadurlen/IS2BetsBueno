@@ -1,0 +1,60 @@
+
+*domain.Apustua#equals(Ljava/lang/Object;)ZV
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.javaY Y("startingBlock*Ω
+2V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.java\
+ \("`
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.java\ \(
+""*ı
+3V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.javaZ Z(è
+å
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.javaZ Z(
+adomain.Apustua"__id*
+
+ojava.lang.Object*
+2
+1*ò
+startingBlockV
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.javaY Y( û
+õ
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.javaX X(
+
+%3"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Objectà
+Ö
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.javaY Y(
+ojava.lang.Object"__annotation*
+
+%3*
+3*ÿ
+1V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.java^	 ^(“œ
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.java^	 ^( 
+%0java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
+domain.Apustua2getApostuaNumber()’“
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.java^( ^(<
+%1java.lang.Integer"4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;*
+
+adomain.Apustua2getApostuaNumber()ÎË
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.java^	 ^(=
+%2boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.Integer*
+
+%1java.lang.Integer2equals(Ljava/lang/Object;)"`
+V
+LC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Apustua.java^ ^(>
+"":
+ojava.lang.ObjectB
+domain.Apustua
