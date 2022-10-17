@@ -1,4 +1,4 @@
-package dataAccess;
+package dataaccess;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -38,9 +38,7 @@ public class ObjectdbManagerServer extends JDialog {
 
 
 	public static void main(String[] args) {
-		try {
-			
-			
+		try {		
 			ObjectdbManagerServer dialog = new ObjectdbManagerServer();
 			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 			dialog.setVisible(true);

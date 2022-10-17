@@ -3,22 +3,19 @@ package gui;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.Vector;
 
 /**
  * @author Software Engineering teachers
  */
-import javax.swing.ButtonGroup;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JRadioButton;
 import javax.swing.SwingConstants;
 
 import businessLogic.BLFacade;
@@ -28,37 +25,30 @@ import domain.Registered;
 
 public class AdminGUI extends JFrame {
 	
+	private static BLFacade appFacadeInterface;
+	
 	private static final long serialVersionUID = 1L;
 
-	private JPanel jContentPane = null;
-	private JButton jButtonCreateQuery = null;
-	private JButton jButtonQueryQueries = null;
-
-    private static BLFacade appFacadeInterface;
+	private JPanel jContentPane;
+	private JButton jButtonCreateQuery;
+	private JButton jButtonQueryQueries;
 	
-	public static BLFacade getBusinessLogic(){
-		return appFacadeInterface;
-	}
-	 
-	public static void setBussinessLogic (BLFacade afi){
-		appFacadeInterface=afi;
-	}
 	protected JLabel jLabelSelectOption;
 	private JButton btnNewButton;
-	private JButton btnNewButton_1;
+	private JButton btnNewButton1;
 	
 	private JButton jButtonEmaitzaIpini;
 	private JButton jButtonDesLogin;
 	private JFrame thisw;
 	private JButton btnGertaerakKopiatu;
+
 	
 	/**
 	 * This is the default constructor
 	 */
 	public AdminGUI(Registered u) {
 		super();
-		user=u;
-		thisw=this;
+		thisw = this;
 		addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowClosing(WindowEvent e) {
@@ -75,7 +65,15 @@ public class AdminGUI extends JFrame {
 		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
+	public static BLFacade getBusinessLogic(){
+		return appFacadeInterface;
+	}
+	 
+	public static void setBussinessLogic (BLFacade afi){
+		appFacadeInterface=afi;
+	}
 	
+
 
 	/**
 	 * This method initializes this
@@ -103,7 +101,7 @@ public class AdminGUI extends JFrame {
 			jContentPane.add(getBoton3());
 			jContentPane.add(getBoton2());
 			jContentPane.add(getBtnNewButton());
-			jContentPane.add(getBtnNewButton_1());
+			jContentPane.add(getBtnNewButton1());
 			jContentPane.add(getJButtonEmaitzaIpini());
 			
 			JButton jButtonGertaerakEzabatu = new JButton(ResourceBundle.getBundle("Etiquetas").getString("GertaerakEzabatu")); //$NON-NLS-1$ //$NON-NLS-2$
@@ -182,32 +180,32 @@ public class AdminGUI extends JFrame {
 			btnNewButton.setBackground(Color.PINK);
 			btnNewButton.setForeground(Color.DARK_GRAY);
 			btnNewButton.setBounds(239, 44, 232, 30);
-			btnNewButton.addActionListener((e) -> {
+			btnNewButton.addActionListener(e -> {
 					JFrame a = new KuotakIpiniGUI(new Vector<Event>());
 					a.setVisible(true);
 			});
 		}
 		return btnNewButton;
 	}
-	private JButton getBtnNewButton_1() {
-		if (btnNewButton_1 == null) {
-			btnNewButton_1 = new JButton(ResourceBundle.getBundle("Etiquetas").getString("GertaerakSortu")); //$NON-NLS-1$ //$NON-NLS-2$
-			btnNewButton_1.setBackground(Color.PINK);
-			btnNewButton_1.setForeground(Color.DARK_GRAY);
-			btnNewButton_1.setBounds(239, 84, 232, 30);
-			btnNewButton_1.addActionListener((e) -> {
+	private JButton getBtnNewButton1() {
+		if (btnNewButton1 == null) {
+			btnNewButton1 = new JButton(ResourceBundle.getBundle("Etiquetas").getString("GertaerakSortu")); //$NON-NLS-1$ //$NON-NLS-2$
+			btnNewButton1.setBackground(Color.PINK);
+			btnNewButton1.setForeground(Color.DARK_GRAY);
+			btnNewButton1.setBounds(239, 84, 232, 30);
+			btnNewButton1.addActionListener((e) -> {
 					JFrame a = new GertaerakSortuGUI();
 					a.setVisible(true);
 			});
 		}
-		return btnNewButton_1;
+		return btnNewButton1;
 	}
 	private JButton getJButtonEmaitzaIpini() {
 		if (jButtonEmaitzaIpini == null) {
 			jButtonEmaitzaIpini = new JButton(ResourceBundle.getBundle("Etiquetas").getString("EmaitzaIpini"));
 			jButtonEmaitzaIpini.setForeground(Color.DARK_GRAY);
 			jButtonEmaitzaIpini.setBackground(Color.PINK);
-			jButtonEmaitzaIpini.addActionListener((e) -> {
+			jButtonEmaitzaIpini.addActionListener(e -> {
 					JFrame a = new EmaitzakIpiniGUI(new Vector<Event>());
 					a.setVisible(true);
 			});

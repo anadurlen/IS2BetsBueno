@@ -1,4 +1,4 @@
-package dataAccess;
+package dataaccess;
 
 import java.util.ArrayList;
 //hello
@@ -6,7 +6,6 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -741,12 +740,7 @@ public class DataAccess  {
 				}
 			}
 			if(b) {
-				String[] taldeak = description.split("-");
-				Team lokala = new Team(taldeak[0]);
-				Team kanpokoa = new Team(taldeak[1]);
-				Event e = new Event(description, eventDate, lokala, kanpokoa);
-				e.setSport(spo);
-				spo.addEvent(e);
+				Event e = fillEvent(description, eventDate, spo);
 				db.persist(e);
 			}
 		}else {
@@ -754,6 +748,16 @@ public class DataAccess  {
 		}
 		db.getTransaction().commit();
 		return b;
+	}
+
+	private Event fillEvent(String description, Date eventDate, Sport spo) {
+		String[] taldeak = description.split("-");
+		Team lokala = new Team(taldeak[0]);
+		Team kanpokoa = new Team(taldeak[1]);
+		Event e = new Event(description, eventDate, lokala, kanpokoa);
+		e.setSport(spo);
+		spo.addEvent(e);
+		return e;
 	}
 	
 	public Quote storeQuote(String forecast, Double Quote, Question question) throws QuoteAlreadyExist {
@@ -906,6 +910,7 @@ public class DataAccess  {
 		Aquery.setParameter(1, u.getUsername());
 		return Aquery.getResultList();
 	}
+	
 	public List<ApustuAnitza> findApustuAnitza(Registered u){
 		Registered user = (Registered) db.find(Registered.class, u.getUsername()); 
 		TypedQuery<ApustuAnitza> Aquery = db.createQuery("SELECT aa FROM ApustuAnitza aa WHERE aa.getUser().getUsername() =?1 ", ApustuAnitza.class);
@@ -951,6 +956,19 @@ public class DataAccess  {
 		db.getTransaction().begin();
 		Question que = q.getQuestion(); 
 		Question question = db.find(Question.class, que); 
+		updateApustuak(result, question);
+		db.getTransaction().commit();
+		for(Apustua a : listApustuak) {
+			db.getTransaction().begin();
+			Boolean bool=a.getApustuAnitza().irabazitaMarkatu();
+			db.getTransaction().commit();
+			if(bool) {
+				this.ApustuaIrabazi(a.getApustuAnitza());
+			}
+		}
+	}
+
+	private void updateApustuak(String result, Question question) {
 		question.setResult(result);
 		for(Quote quo: question.getQuotes()) {
 			for(Apustua apu: quo.getApustuak()) {
@@ -963,27 +981,11 @@ public class DataAccess  {
 				}
 			}
 		}
-		db.getTransaction().commit();
-		for(Apustua a : listApustuak) {
-			db.getTransaction().begin();
-			Boolean bool=a.getApustuAnitza().irabazitaMarkatu();
-			db.getTransaction().commit();
-			if(bool) {
-				this.ApustuaIrabazi(a.getApustuAnitza());
-			}
-		}
 	}
 	
 	public boolean gertaeraEzabatu(Event ev) {
 		Event event  = db.find(Event.class, ev); 
-		boolean resultB = true; 
-		List<Question> listQ = event.getQuestions(); 
-		
-		for(Question q : listQ) {
-			if(q.getResult() == null) {
-				resultB = false; 
-			}
-		}
+		boolean resultB = checkResults(event);
 		if(resultB == false) {
 			return false;
 		}else if(new Date().compareTo(event.getEventDate())<0) {
@@ -998,11 +1000,7 @@ public class DataAccess  {
 					db.getTransaction().begin();
 					ap1.removeApustua(quo.getApustuak().get(i));
 					db.getTransaction().commit();
-					if(ap1.getApustuak().isEmpty() && !ap1.getEgoera().equals("galduta")) {
-						this.apustuaEzabatu(ap1.getUser(), ap1);
-					}else if(!ap1.getApustuak().isEmpty() && ap1.irabazitaMarkatu()){
-						this.ApustuaIrabazi(ap1);
-					}
+					purgeApustuak(ap1);
 					db.getTransaction().begin();
 					Sport spo =quo.getQuestion().getEvent().getSport();
 					spo.setApustuKantitatea(spo.getApustuKantitatea()-1);
@@ -1015,6 +1013,26 @@ public class DataAccess  {
 		db.remove(event);
 		db.getTransaction().commit();
 		return true; 
+	}
+
+	private void purgeApustuak(ApustuAnitza ap1) {
+		if(ap1.getApustuak().isEmpty() && !ap1.getEgoera().equals("galduta")) {
+			this.apustuaEzabatu(ap1.getUser(), ap1);
+		}else if(!ap1.getApustuak().isEmpty() && ap1.irabazitaMarkatu()){
+			this.ApustuaIrabazi(ap1);
+		}
+	}
+
+	private boolean checkResults(Event event) {
+		boolean resultB = true; 
+		List<Question> listQ = event.getQuestions(); 
+		
+		for(Question q : listQ) {
+			if(q.getResult() == null) {
+				resultB = false; 
+			}
+		}
+		return resultB;
 	}
 	
 	public String saldoaBistaratu(Registered u) {
@@ -1047,14 +1065,11 @@ public class DataAccess  {
 		List<Event> events = query.getResultList();
 	 	return events;
 	}
-	
-	
-	
+
 	public boolean gertaerakKopiatu(Event e, Date date) {
 		Boolean b=false;
 		Event gertaera = db.find(Event.class, e.getEventNumber());
 		db.getTransaction().begin();
-		
 		
 		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev WHERE ev.getDescription()=?1 and ev.getEventDate()=?2",Event.class);   
 		query.setParameter(1,gertaera.getDescription());
@@ -1101,7 +1116,6 @@ public class DataAccess  {
 		return b;
 	}
 	
-	
 	public Sport popularrenaLortu() {
 		Integer max=Integer.MIN_VALUE;
 		Sport s=null;
@@ -1129,8 +1143,7 @@ public class DataAccess  {
 	
 	public List<Team> getAllTeams() {	
 		TypedQuery<Team> query = db.createQuery("SELECT t FROM Team t ",Team.class);   
-		List<Team> teams = query.getResultList();
-	 	return teams;
+		return query.getResultList();
 	}
 	
 	public void jarraituTaldea(Registered u, Team t) {
@@ -1152,6 +1165,6 @@ public class DataAccess  {
 		query.setParameter(1, t.getIzena());
 		query.setParameter(2, t.getIzena());
 		return query.getResultList();
-		
 	}
+	
 }

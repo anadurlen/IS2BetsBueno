@@ -11,7 +11,8 @@ import javax.xml.ws.Service;
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
 import configuration.ConfigXML;
-import dataAccess.DataAccess;
+import dataaccess.DataAccess;
+
 
 public class ApplicationLauncher { 
 	
@@ -52,9 +53,7 @@ public class ApplicationLauncher {
 				appFacadeInterface=new BLFacadeImplementation(da);
 
 				
-			}
-			
-			else { //If remote
+			} else { //If remote
 				
 				 String serviceName= "http://"+c.getBusinessLogicNode() +":"+ c.getBusinessLogicPort()+"/ws/"+c.getBusinessLogicName()+"?wsdl";
 				 

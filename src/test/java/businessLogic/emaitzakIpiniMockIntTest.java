@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class emaitzakIpiniMockIntTest {
+public class EmaitzakIpiniMockIntTest {
 
 	@Before
 	public void setUp() throws Exception {

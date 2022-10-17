@@ -2,14 +2,12 @@ package dataAccess;
 
 import static org.junit.Assert.*;
 
-import javax.persistence.EntityManager;
-
 import org.junit.Before;
 import org.junit.After;
 import org.junit.Test;
 
-import configuration.ConfigXML;
 import configuration.UtilDate;
+import dataaccess.DataAccess;
 import domain.ApustuAnitza;
 import domain.Apustua;
 import domain.Event;
@@ -21,7 +19,6 @@ import exceptions.EventNotFinished;
 
 public class EmaitzakIpiniDAWTest {
 	
-	/*
 	Team t1 = new Team("Atletico");
 	Team t2 = new Team("Athletic");
 	
@@ -54,7 +51,6 @@ public class EmaitzakIpiniDAWTest {
 	
 	Apustua a4 = new Apustua(aa3, quote6);
 	
-	*/
 	
 	static DataAccess sut  =  new DataAccess();
 	

@@ -3,7 +3,7 @@ package domain;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Vector;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -82,8 +82,8 @@ public class ApustuAnitza implements Serializable{
 		return apustuak;
 	}
 
-	public void setApustuak(ArrayList<Apustua> apustuak) {
-		this.apustuak = apustuak;
+	public void setApustuak(List<Apustua> apustuak) {
+		this.apustuak = (ArrayList<Apustua>) apustuak;
 	}
 	
 	public void addApustua(Apustua ap) {
