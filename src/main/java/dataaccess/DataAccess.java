@@ -220,14 +220,15 @@ public class DataAccess  {
 			Registered reg3 = new Registered("markel", "123", 1111);
 			Registered reg4 = new Registered("mikel", "123", 1111);
 									
+			String ganar_partido = "¿Quién ganará el partido?";
+			
 			if (Locale.getDefault().equals(new Locale("es"))) {
-				q1=ev1.addQuestion("¿Quién ganará el partido?",1);
+				q1=ev1.addQuestion(ganar_partido,1);
 				q2=ev1.addQuestion("¿Quién meterá el primer gol?",2);
-				q3=ev11.addQuestion("¿Quién ganará el partido?",1);
+				q3=ev11.addQuestion(ganar_partido,1);
 				q4=ev11.addQuestion("¿Cuántos goles se marcarán?",2);
-				q5=ev17.addQuestion("¿Quién ganará el partido?",1);
+				q5=ev17.addQuestion(ganar_partido,1);
 				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);
-				
 			}
 			else if (Locale.getDefault().equals(new Locale("en"))) {
 				q1=ev1.addQuestion("Who will win the match?",1);
@@ -593,10 +594,12 @@ public class DataAccess  {
 			
 			db.getTransaction().commit();
 			
-			this.DiruaSartu(reg1, 50.0, new Date(), "DiruaSartu");
-			this.DiruaSartu(reg2, 50.0, new Date(), "DiruaSartu");
-			this.DiruaSartu(reg3, 50.0, new Date(), "DiruaSartu");
-			this.DiruaSartu(reg4, 50.0, new Date(), "DiruaSartu");
+			String meter_dinero= "DiruaSartu";
+			
+			this.DiruaSartu(reg1, 50.0, new Date(), meter_dinero);
+			this.DiruaSartu(reg2, 50.0, new Date(), meter_dinero);
+			this.DiruaSartu(reg3, 50.0, new Date(), meter_dinero);
+			this.DiruaSartu(reg4, 50.0, new Date(), meter_dinero);
 			
 			System.out.println("Db initialized");
 		}
