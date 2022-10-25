@@ -1,0 +1,112 @@
+
+6dataaccess.DataAccess#popularrenaLortu()Ldomain/Sport;_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaﬂ ﬂ("6*¢
+2_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÂ Â(â
+Ü
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÂ Â(
+sportdomain.Sport"__id*
+""ß
+§
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÂ Â(
+sportdomain.Sport"
+__arrayGet*
+
+spjava.util.List*
+""*
+4
+1*¶
+3_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaË Ë(ñ
+ì
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaË Ë(
+sdomain.Sport"__id*
+
+sportdomain.Sport°
+û
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÈ È(
+maxjava.lang.Integer"__id*
+
+kontjava.lang.Integer*
+2*ˆ
+4_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÊ Ê(‰·
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÊ Ê(#
+%4java.lang.Integer"5domain.Sport#getApustuKantitatea()Ljava/lang/Integer;*
+
+sportdomain.Sport2getApustuKantitatea()†
+ù
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÊ Ê(#
+kontjava.lang.Integer"__id*
+
+%4java.lang.Integer*
+2
+3*ê
+6_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java‡ ‡(|
+z
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java‡ ‡(	
+%0int"__id*
+""ë
+é
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java‡ ‡( 
+maxjava.lang.Integer"__id*
+	
+%0intÖ
+Ç
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java· ·(
+sdomain.Sport"__id*
+""¥
+±
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java‚ ‚(%
+%1javax.persistence.EntityManager"__id*!*
+dataaccess.DataAccess"
+db˘ˆ
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java‚ ‚(R"
+%2javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%1javax.persistence.EntityManager*
+SELECT sp FROM Sport sp *
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)∑
+¥
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java‚ ‚(S%
+queryjavax.persistence.TypedQuery"__id*$
+"
+%2javax.persistence.TypedQueryÚÔ
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java„ „(&
+%3java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*'
+%
+queryjavax.persistence.TypedQuery2getResultList()ò
+ï
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java„ „('
+spjava.util.List"__id*
+
+%3java.util.Listç
+ä
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java‰ ‰(
+kontjava.lang.Integer"__id*
+""*
+2*‹
+1_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÏ	 Ï(
+"v
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÏ Ï(
+
+sdomain.SportB
+dataaccess.DataAccess

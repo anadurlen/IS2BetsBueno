@@ -1,0 +1,66 @@
+
+Kdataaccess.DataAccess#findTransakzioak(Ldomain/Registered;)Ljava/util/List;_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaô ô(*"1*å
+1_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaö! ö(#¥
+±
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaö! ö(#%
+%0javax.persistence.EntityManager"__id*!*
+dataaccess.DataAccess"
+dbÿ’
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaö; ö(J
+%1java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+
+udomain.Registered2getUsername()–Õ
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaö! ö(K
+%2domain.Registered"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)¥
+±
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaõ# õ(%%
+%3javax.persistence.EntityManager"__id*!*
+dataaccess.DataAccess"
+db´®
+`
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaõ# õ(ë"
+%4javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%3javax.persistence.EntityManager*MK
+ISELECT t FROM Transaction t WHERE t.getErabiltzailea().getUsername() =?1 *
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)π
+∂
+`
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaõ õ(í&
+Tqueryjavax.persistence.TypedQuery"__id*$
+"
+%4javax.persistence.TypedQueryÿ’
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaú ú((
+%5java.lang.String"1domain.Registered#getUsername()Ljava/lang/String;*
+
+udomain.Registered2getUsername()”–
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaú ú()"
+%6javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*(
+&
+Tqueryjavax.persistence.TypedQuery*2*
+
+%5java.lang.String2!setParameter(ILjava/lang/Object;)Û
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaù	 ù(
+%7java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*(
+&
+Tqueryjavax.persistence.TypedQuery2getResultList()"y
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaù ù( 
+
+%7java.util.List:
+udomain.RegisteredB
+dataaccess.DataAccess

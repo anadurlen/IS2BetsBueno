@@ -1,0 +1,78 @@
+
+Fdataaccess.DataAccess#existQuestion(Ldomain/Event;Ljava/lang/String;)Z_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.java¿ ¿("1*¡
+1_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÀ À(
+Š
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÀ À(
+%0java.io.PrintStream"__id*
+""Ë
+È
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÀ À(C
+%1java.lang.String"__concat**(
+&>> DataAccess: existQuestion=> event= *
+
+eventdomain.Event±
+®
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÀ À(Q
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+ question= À
+½
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÀ À(Z
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+
+questionjava.lang.Stringöó
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÀ À([
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+
+%3java.lang.String2println(Ljava/lang/String;)´
+±
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÁ Á(%
+%5javax.persistence.EntityManager"__id*!*
+dataaccess.DataAccess"
+dbÚ×
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÁ" Á(8
+%6java.lang.Integer"0domain.Event#getEventNumber()Ljava/lang/Integer;*
+
+eventdomain.Event2getEventNumber()ÌÉ
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÁ Á(9
+%7domain.Event"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%5javax.persistence.EntityManager*
+""*
+
+%6java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)”
+‘
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÁ Á(:
+evdomain.Event"__id*
+
+%7domain.Event‡„
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÂ	 Â((
+%8boolean"4domain.Event#DoesQuestionExists(Ljava/lang/String;)Z*
+
+evdomain.Event*
+
+questionjava.lang.String2&DoesQuestionExists(Ljava/lang/String;)"i
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÂ Â()
+"":
+eventdomain.Event:
+questionjava.lang.StringB
+dataaccess.DataAccess

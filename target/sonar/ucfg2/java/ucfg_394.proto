@@ -1,0 +1,34 @@
+
+3dataaccess.DataAccess#getAllTeams()Ljava/util/List;_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaø ø("1*¾	
+1_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaù ù(´
+±
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaù ù(%
+%0javax.persistence.EntityManager"__id*!*
+dataaccess.DataAccess"
+dböó
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaù ù(M"
+%1javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%0javax.persistence.EntityManager*
+SELECT t FROM Team t *
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)·
+´
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaù ù(N%
+queryjavax.persistence.TypedQuery"__id*$
+"
+%1javax.persistence.TypedQueryòï
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaú	 ú(
+%2java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*'
+%
+queryjavax.persistence.TypedQuery2getResultList()"y
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaú ú(
+
+%2java.util.ListB
+dataaccess.DataAccess

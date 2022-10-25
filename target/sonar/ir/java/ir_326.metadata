@@ -1,0 +1,1 @@
+dataaccess.DataAccess#findQuote(Ldomain/Question;)Ljava/util/Collection;

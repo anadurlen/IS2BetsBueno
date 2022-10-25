@@ -1,0 +1,84 @@
+
+'domain.ApustuAnitza#irabazitaMarkatu()Z[
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java ( "7*Ë
+2]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÜ Ü(ö
+ó
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÜ Ü(!
+domain.ApustuAnitza"
+egoera"__id*
+	irabazita"g
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaá á(
+""*ù
+3]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÅ Å(Ö
+Ç
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÅ Å(
+adomain.Apustua"__id*
+""®
+•
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÅ Å(
+adomain.Apustua"
+__arrayGet*
+
+%2java.util.ArrayList*
+""*
+2
+5*À
+4]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÉ É("g
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÉ É(
+""*†
+5]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÇ Ç(	Ã…
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÇ Ç(
+%3java.lang.String",domain.Apustua#getEgoera()Ljava/lang/String;*
+
+adomain.Apustua2getEgoera()‰·
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÇ Ç()
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%3java.lang.String*
+	irabazita2equals(Ljava/lang/Object;)*
+3
+4*î
+6]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÅ Å(™
+ß
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÅ Å(
+%2java.util.ArrayList"__id*%*#
+domain.ApustuAnitza"
+
+apustuak*
+3*ˆ
+7]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÄ Ä(	•
+¢
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÄ Ä(
+%0java.lang.String"__id*#*!
+domain.ApustuAnitza"
+egoera·ﬁ
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaÄ Ä(!
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*
+
+jokoan2equals(Ljava/lang/Object;)*
+6
+1*À
+1]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaâ	 â("g
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaâ â(
+""B
+domain.ApustuAnitza

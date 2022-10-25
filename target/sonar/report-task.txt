@@ -1,0 +1,7 @@
+organization=jonortega
+projectKey=Bets21:IS2Bets
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.33982
+dashboardUrl=https://sonarcloud.io/dashboard?id=Bets21%3AIS2Bets
+ceTaskId=AYQO9ZMdVi_z5h-ox5Sk
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYQO9ZMdVi_z5h-ox5Sk

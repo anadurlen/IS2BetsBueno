@@ -1,0 +1,6 @@
+dataaccess.DataAccess#EmaitzakIpini(Ldomain/Quote;)V
+java.util.Date#<init>()V
+exceptions.EventNotFinished#instance-init#
+dataaccess.DataAccess#updateApustuak(Ljava/lang/String;Ldomain/Question;)V
+exceptions.EventNotFinished#<init>()V
+java.util.Date#instance-init#

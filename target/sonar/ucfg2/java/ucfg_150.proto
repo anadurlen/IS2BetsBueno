@@ -1,0 +1,66 @@
+
+0domain.ApustuAnitza#toString()Ljava/lang/String;]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java‘ ‘("1*ù
+1]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’	 ’(¡
+ž
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’	 ’(
+%0java.util.Date"__id*!*
+domain.ApustuAnitza"
+data¬
+©
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’	 ’(!
+%1java.lang.String"__concat*
+
+%0java.util.Date*
+
+; Zenbat: ¥
+¢
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’# ’(.
+%2java.lang.Double"__id*#*!
+domain.ApustuAnitza"
+balioaÏÌ
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’# ’(9
+%3java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
+
+%2java.lang.Double2
+toString()¸
+µ
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’	 ’(9
+%4java.lang.String"__concat*
+
+%1java.lang.String*
+
+%3java.lang.String®
+«
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’	 ’(H
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+; Egoera: ¥
+¢
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’K ’(V
+%6java.lang.String"__id*#*!
+domain.ApustuAnitza"
+egoera¸
+µ
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’	 ’(V
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.String"y
+]
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java’ ’(W
+
+%7java.lang.StringB
+domain.ApustuAnitza

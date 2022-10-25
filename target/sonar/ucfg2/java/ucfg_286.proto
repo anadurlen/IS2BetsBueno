@@ -1,0 +1,51 @@
+
+(domain.Quote#equals(Ljava/lang/Object;)ZT
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javan n("startingBlock*à
+2T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javap p(‹
+ˆ
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javap p(
+qdomain.Quote"__id*
+
+ojava.lang.ObjectÈÅ
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javaq
+ q(
+%0java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
+domain.Quote2getQuoteNumber()ËÈ
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javaq! q(3
+%1java.lang.Integer"0domain.Quote#getQuoteNumber()Ljava/lang/Integer;*
+
+qdomain.Quote2getQuoteNumber()"^
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javaq q(4
+""*•
+startingBlockT
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javan n( œ
+™
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javam m(
+
+%2"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Object†
+ƒ
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javan n(
+ojava.lang.Object"__annotation*
+
+%2*
+2
+1*¹
+1T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javas
+ s("^
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Quote.javas s(
+"":
+ojava.lang.ObjectB
+domain.Quote

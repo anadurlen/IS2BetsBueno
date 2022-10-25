@@ -1,0 +1,49 @@
+
+3dataaccess.DataAccess#checkResults(Ldomain/Event;)Z_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÇ Ç("6*£
+2_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÜ Ü(à
+Ö
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÜ Ü(
+qdomain.Question"__id*
+""©
+¶
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÜ Ü(
+qdomain.Question"
+__arrayGet*
+
+listQjava.util.List*
+""*
+4
+1*º
+4_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaá á(–Õ
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaá á(
+%1java.lang.String"-domain.Question#getResult()Ljava/lang/String;*
+
+qdomain.Question2getResult()*
+2*‡
+6_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÉ É(‘—
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÑ Ñ(-
+%0java.util.Vector"-domain.Event#getQuestions()Ljava/util/Vector;*
+
+eventdomain.Event2getQuestions()ù
+ö
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaÑ Ñ(.
+listQjava.util.List"__id*
+
+%0java.util.Vector*
+2*œ
+1_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaã	 ã("i
+_
+SC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/dataaccess/DataAccess.javaã ã(
+"":
+eventdomain.EventB
+dataaccess.DataAccess
