@@ -1,6 +1,6 @@
-/businessLogic/
-/configuration/
-/dataaccess/
-/domain/
-/exceptions/
-/gui/
+/.DS_Store
+/Etiquetas.properties
+/Etiquetas_en.properties
+/Etiquetas_en_US.properties
+/Etiquetas_es.properties
+/Etiquetas_eus.properties
