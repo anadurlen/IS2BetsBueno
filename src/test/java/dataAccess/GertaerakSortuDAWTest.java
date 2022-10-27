@@ -88,7 +88,9 @@ public class GertaerakSortuDAWTest {
 			System.out.println("Evento no borrado (" + descripcion + ", " + date + ", " + s + ")");
 			
 	}
-	
+	/*
+	 * Este test igual no es necesario porque ya hay 1005 de cobertura
+	 * 
 	@Test
 	public void test3() {
 		
@@ -105,7 +107,7 @@ public class GertaerakSortuDAWTest {
 		if (!deleted)
 			System.out.println("Evento no borrado (" + descripcion + ", " + date + ", " + s + ")");
 			
-	}
+	}*/
 	@Test
 	public void test4() {
 		
