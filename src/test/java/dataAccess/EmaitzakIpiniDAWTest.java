@@ -1,11 +1,11 @@
 package dataAccess;
 
-import static org.junit.Assert.*;
-
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.util.Date;
 import org.junit.Before;
-import org.junit.After;
 import org.junit.Test;
-
 import configuration.UtilDate;
 import dataaccess.DataAccess;
 import domain.ApustuAnitza;
@@ -13,87 +13,108 @@ import domain.Apustua;
 import domain.Event;
 import domain.Question;
 import domain.Quote;
-import domain.Registered;
-import domain.Team;
-import exceptions.EventNotFinished;
+
 
 public class EmaitzakIpiniDAWTest {
+	private static DataAccess sut = new DataAccess();
 	
-	Team t1 = new Team("Atletico");
-	Team t2 = new Team("Athletic");
-	
-	Event e1 = new Event(3, "Atletico-Athletic", UtilDate.newDate(2024,01,17), t1, t2);
-	Event e2 = new Event(2, "Atletico-Athletic", UtilDate.newDate(2021,01,17), t1, t2);
-	
-	Question q1 = new Question("¿Quién ganara?", 1.0, e1);
-	Question q2 = new Question("¿Quién marcara primero?", 2.0, e2);
-	Question q3 = new Question("¿Quién marcara primero?", 2.0, e1);
-	Question q4 = new Question("¿Quién marcara ultimo?", 2.0, e1);
-	
-	Quote quote1 = new Quote(10.0, "X", q1);
-	Quote quote2 = new Quote(20.0, "2", q2);
-	Quote quote3 = new Quote(50.0, "2", q1);
-	Quote quote4 = new Quote(20.0, "2", q3);
-	Quote quote5 = new Quote(5.0, "2", q4);
-	Quote quote6 = new Quote(2.0, "1", q4);
-	
-	Registered r1 = new Registered("andrea", "123", 1111);
-	ApustuAnitza aa1 = new ApustuAnitza(r1, 5.0);
-	Apustua a1 = new Apustua(aa1, quote3);
-	
-	Registered r2 =new Registered("registered", "123", 1234);
-	ApustuAnitza aa2 = new ApustuAnitza(r2, 2.0);
-	Apustua a2 = new Apustua(aa2, quote4);
-	
-	Registered r3 = new Registered("markel", "123", 1111);
-	ApustuAnitza aa3 = new ApustuAnitza(r3, 40.0);
-	Apustua a3 = new Apustua(aa3, quote5);
-	
-	Apustua a4 = new Apustua(aa3, quote6);
-	
-	
-	static DataAccess sut  =  new DataAccess();
-	
+	private Event eve1;
+	private Event eve2;
+	private Question q1;
+	private Question q2;
+	private Quote quo1;
+	private Quote quo2;
+	private Apustua ap2;
+	private Apustua ap3;
+
 	
 	@Before
-	public void setUp() throws Exception {
-		fail("Not yet implemented");
+	public void initialize() {
+		
+		eve1 = sut.getEventsAll().get(0);
+		q1 = eve1.getQuestions().get(0);
+		quo1 = q1.getQuotes().get(0);
+		
+		eve2 = sut.getEventsAll().get(0);
+		q2 =  eve2.getQuestions().get(1);		
+		quo2 = q2.getQuotes().get(0);
+		ap2 = quo2.getApustuak().get(0);
+		
+		ap3 = quo1.getApustuak().get(0);
+
+
 	}
 	
-	@After
-	public void tearDown() {
-		fail("Not yet implemented");
+	// Camino salta excepcion por fecha del evento todavia no finalizada
+	@Test
+	public void test1() {
+		Date fecha = eve1.getEventDate();
+		eve1.setEventDate(UtilDate.newDate(2023,11,23));
+		
+		try {
+			sut.EmaitzakIpini(quo1);
+			
+		}catch(Exception EventNotFinished) {
+			System.out.println("EventNotFinished");
+			assertTrue(true);
+		}
+		try {
+			eve1.setEventDate(fecha);
+			
+		} catch (Exception e) {
+			fail("No es posible");
+		}
 	}
 
-	@Test(expected = EventNotFinished.class)
-	public void testEmaitzakIpini1() {
+	/*
+	 * Camino para comprobar que la egoera de las apuestas
+	 * y el resultado de la pregunta se ponen correctamente.
+	 */
+	@Test
+	public void test2() {
+		
+		String s1 = ap2.getEgoera();
+		String s2 = ap3.getApustuAnitza().getEgoera();
+
+		ap2.setEgoera("jokoan");
+		ap3.setEgoera("jokoan");
+		
+		Date fecha = eve2.getEventDate();
+		eve2.setEventDate(UtilDate.newDate(2021,8,7));
+
+
 		try {
-			sut.EmaitzakIpini(quote2);
-			fail("No deberia de llegar.");
-		} catch (EventNotFinished e) {
-			e.printStackTrace();
+			sut.EmaitzakIpini(quo2);
+		}catch(Exception EventNotFinished) {
+			System.out.println("EventNotFinished");
+			//assertTrue(true);
+		}
+		
+		String expected = quo2.getForecast();
+		String obtained = q2.getResult();
+		
+		String expected2 = "irabazita";
+		String obtained2 = ap2.getEgoera();
+
+		String expected3 = "galduta";
+		String obtained3 = ap3.getApustuAnitza().getEgoera();
+		
+		assertEquals(expected, obtained);
+		assertEquals(expected2, obtained2);
+		assertEquals(expected3, obtained3);
+
+		try {
+			
+			eve2.setEventDate(fecha);
+			quo2.getQuestion().setResult("");
+			ap2.setEgoera(s1);
+			ap3.getApustuAnitza().setEgoera(s2);
+
+		} catch (Exception e) {
+			fail("No es posible");
 		}
 	}
 	
-	@Test
-	public void testEmaitzakIpini2() {
-		fail("Not yet implemented");
-	}
 	
-	@Test
-	public void testEmaitzakIpini3() {
-		fail("Not yet implemented");
-	}
-	
-	@Test
-	public void testEmaitzakIpini4() {
-		fail("Not yet implemented");
-	}
-	
-	@Test
-	public void testEmaitzakIpini5() {
-		fail("Not yet implemented");
-	}
-
 
 }
