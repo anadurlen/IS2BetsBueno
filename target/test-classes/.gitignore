@@ -1,2 +1,6 @@
-/businessLogic/
-/dataAccess/
+/EmaitzakIpiniDABTest.class
+/EmaitzakIpiniDAWTest.class
+/EmaitzakIpiniMockIntTest.class
+/GertaerakSortuDABTest.class
+/GertaerakSortuDAWTest.class
+/test/

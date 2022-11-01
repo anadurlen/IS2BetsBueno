@@ -1,4 +1,4 @@
-package businessLogic;
+
 
 import configuration.UtilDate;
 import dataaccess.DataAccess;
@@ -16,6 +16,8 @@ import org.junit.Test;
 
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mockito;
+
+import businessLogic.BLFacadeImplementation;
 
 
 public class EmaitzakIpiniMockIntTest {
