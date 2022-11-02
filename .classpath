@@ -34,6 +34,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/jonor/Desktop/apache-maven-3.8.6/mockito-core-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/analucia/Downloads/mockito-junit-jupiter-4.8.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

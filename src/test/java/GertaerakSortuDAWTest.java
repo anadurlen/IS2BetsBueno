@@ -134,5 +134,148 @@ public class GertaerakSortuDAWTest {
 			System.out.println("Evento no borrado (" + descripcion + ", " + date + ", " + s + ")");
 			
 	}
+	
+	
+	@Test
+	public void test5() {
+		
+		boolean expected = false;
+		
+		descripcion = null;
+		date = UtilDate.newDate(today.get(Calendar.YEAR), (today.get(Calendar.MONTH)+1), 17);
+		s = "Tennis";
+		
+		dt.gertaerakSortu(descripcion, date, s);
+		boolean result = dt.gertaerakSortu(descripcion, date, s);
+		
+		assertEquals(expected, result);
+				
+		for (Event ev : dt.getEvents(date)) {
+			if (ev.getDescription().equals(descripcion)) {
+				dt.gertaeraEzabatu(ev);
+				deleted = true;
+				break;
+			}
+		}
+		
+		System.out.println("la descripción no puede ser null");
+		
+		if (deleted)
+			System.out.println("Evento borrado (" + descripcion + ", " + date + ", " + s + ")");
+		else
+			System.out.println("Evento no borrado (" + descripcion + ", " + date + ", " + s + ")");
+			
+		
+		
+	}
+	
+	
+	@Test
+	public void test3() {
+		
+		boolean esperado = false;
+		
+		descripcion = "Casper Ruud-Alexander Zverev";
+		date = UtilDate.newDate(today.get(Calendar.YEAR), (today.get(Calendar.MONTH)+1), 17);
+		s = " ";
+		
+		boolean res = dt.gertaerakSortu(descripcion, date, s);
+		
+		assertEquals(esperado, res);
+
+		for (Event ev : dt.getEvents(date)) {
+			if (ev.getDescription().equals(descripcion)) {
+				dt.gertaeraEzabatu(ev);
+				deleted = true;
+				break;
+			}
+		}
+		
+		System.out.println("El sport es null (" + descripcion + ", " + date.toString() + ", " + s + ")");
+		
+		if (deleted)
+			System.out.println("Evento borrado (" + descripcion + ", " + date.toString() + ", " + s + ")");
+		else
+			System.out.println("Evento no borrado (" + descripcion + ", " + date + ", " + s + ")");
+			
+	}
+	
+	
+	
+	@Test
+	public void test6() {
+		
+		boolean esperado = false;
+		
+		descripcion = "Casper Ruud-Alexander Zverev";
+		date = null;
+		s = "Tennis";
+		
+		boolean res = dt.gertaerakSortu(descripcion, date, s);
+		
+		assertEquals(esperado, res);
+
+		for (Event ev : dt.getEvents(date)) {
+			if (ev.getDescription().equals(descripcion)) {
+				dt.gertaeraEzabatu(ev);
+				deleted = true;
+				break;
+			}
+		}
+		
+		System.out.println("La fecha es null (" + descripcion + ", " + date.toString() + ", " + s + ")");
+		
+		if (deleted)
+			System.out.println("Evento borrado (" + descripcion + ", " + date.toString() + ", " + s + ")");
+		else
+			System.out.println("Evento no borrado (" + descripcion + ", " + date + ", " + s + ")");
+				
+	}
+	
+	
+	
+	
+	
+	@Test
+	public void test7() {
+		
+		boolean expected = false;
+		
+		descripcion = "Real Madrid-Barcelona";
+		date = UtilDate.newDate(today.get(Calendar.YEAR), (today.get(Calendar.MONTH)-3), 17);
+		s = "Balonmano";
+		
+		boolean result = dt.gertaerakSortu(descripcion, date, s);
+		
+		assertEquals(expected, result);
+				
+		for (Event ev : dt.getEvents(date)) {
+			if (ev.getDescription().equals(descripcion)) {
+				dt.gertaeraEzabatu(ev);
+				deleted = true;
+				break;
+			}
+		}
+		
+		System.out.println("La fecha no puede ser anterior a la actual");
+		
+		if (deleted)
+			System.out.println("Evento borrado (" + descripcion + ", " + date + ", " + s + ")");
+		else
+			System.out.println("Evento no borrado (" + descripcion + ", " + date + ", " + s + ")");
+				
+	}
+	
+	
+	
+	
+	
+	
+	
 
 }
+
+
+	
+
+
