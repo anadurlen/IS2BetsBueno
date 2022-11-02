@@ -1,5 +1,4 @@
-
-
+import businessLogic.BLFacadeImplementation;
 import configuration.UtilDate;
 import dataaccess.DataAccess;
 import domain.ApustuAnitza;
@@ -9,16 +8,11 @@ import domain.Question;
 import domain.Quote;
 import domain.Registered;
 import domain.Team;
-
 import exceptions.EventNotFinished;
 import static org.junit.Assert.*;
 import org.junit.Test;
-
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mockito;
-
-import businessLogic.BLFacadeImplementation;
-
 
 public class EmaitzakIpiniMockIntTest {
 	
@@ -44,7 +38,6 @@ public class EmaitzakIpiniMockIntTest {
 		try {
 			Mockito.verify(mock, Mockito.times(1)).EmaitzakIpini(cuota1.capture());
 		} catch (EventNotFinished e) {
-
 			e.printStackTrace();
 		}
 		assertEquals(quote1, cuota1.getValue());

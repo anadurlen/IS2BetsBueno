@@ -13,6 +13,7 @@ import domain.Apustua;
 import domain.Event;
 import domain.Question;
 import domain.Quote;
+import exceptions.EventNotFinished;
 
 
 public class EmaitzakIpiniDAWTest {
@@ -20,10 +21,13 @@ public class EmaitzakIpiniDAWTest {
 	
 	private Event eve1;
 	private Event eve2;
+	
 	private Question q1;
 	private Question q2;
+	
 	private Quote quo1;
 	private Quote quo2;
+	
 	private Apustua ap2;
 	private Apustua ap3;
 
@@ -54,9 +58,9 @@ public class EmaitzakIpiniDAWTest {
 		try {
 			sut.EmaitzakIpini(quo1);
 			
-		}catch(Exception EventNotFinished) {
+		}catch(Exception e) {
 			System.out.println("EventNotFinished");
-			assertTrue(true);
+			assertTrue(e instanceof EventNotFinished);
 		}
 		try {
 			eve1.setEventDate(fecha);
@@ -87,7 +91,6 @@ public class EmaitzakIpiniDAWTest {
 			sut.EmaitzakIpini(quo2);
 		}catch(Exception EventNotFinished) {
 			System.out.println("EventNotFinished");
-			//assertTrue(true);
 		}
 		
 		String expected = quo2.getForecast();
