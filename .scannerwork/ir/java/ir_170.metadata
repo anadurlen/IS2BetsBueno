@@ -1,1 +1,2 @@
-domain.Event#getEventNumber()Ljava/lang/Integer;
+gui.MugimenduakBistaratuGUI#instance-init#
+javax.swing.DefaultListModel#<init>()V

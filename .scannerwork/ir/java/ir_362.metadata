@@ -1,1 +1,1 @@
-domain.Transaction#getData()Ljava/util/Date;
+dataaccess.DataAccess#findApustua(LRegistered;)Ljava/util/List;

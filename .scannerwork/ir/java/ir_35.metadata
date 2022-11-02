@@ -1,1 +1,1 @@
-dataAccess.DataAccess#getEventsAll()Ljava/util/List;
+domain.Jarraitzailea#getNork()LRegistered;

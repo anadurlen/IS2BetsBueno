@@ -1,1 +1,1 @@
-domain.Registered#getApustuAnitzak()Ljava/util/Vector;
+domain.Registered#removeApustua(Ldomain/ApustuAnitza;)V

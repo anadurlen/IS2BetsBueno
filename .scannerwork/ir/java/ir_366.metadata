@@ -1,1 +1,5 @@
-domain.Transaction#toString()Ljava/lang/String;
+dataaccess.DataAccess#EmaitzakIpini(LQuote;)V
+null
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+dataaccess.DataAccess#updateApustuak(Ljava/lang/String;LQuestion;)V

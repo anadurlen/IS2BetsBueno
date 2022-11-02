@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#gertaeraEzabatu(Ldomain/Event;)Z
+businessLogic.BLFacadeImplementation#findUser(Ldomain/Registered;)Ldomain/Registered;

@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#getEvents(Ljava/util/Date;)Ljava/util/Vector;
+businessLogic.BLFacadeImplementation#findQuote(LQuestion;)Ljava/util/Collection;

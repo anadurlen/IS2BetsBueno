@@ -1,16 +1,17 @@
 
-6domain.Question#getQuestionNumber()Ljava/lang/Integer;W
-MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaB B(!"1*˘
+/domain.Question#getQuestion()Ljava/lang/String;W
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaV V("1*Ò
 1W
-MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaC	 C(§
-°
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaW	 W(ù
+ö
 W
-MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaC	 C(
-%0java.lang.Integer"__id*'*%
-domain.Question"
-questionNumber"t
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaW	 W(
+%0java.lang.String"__id*!*
+domain.Question"
+
+question"s
 W
-MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaC C(
-
-%0java.lang.IntegerB
+MC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Question.javaW W(
+
+%0java.lang.StringB
 domain.Question

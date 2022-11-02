@@ -1,1 +1,1 @@
-exceptions.EventNotFinished#<init>()V
+test.dataAccess.TestDataAccess#addRegistered(LRegistered;)LRegistered;

@@ -1,1 +1,1 @@
-dataAccess.DataAccess#getEventsTeam(Ldomain/Team;)Ljava/util/List;
+gui.TaldeaJarraituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

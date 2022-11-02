@@ -1,15 +1,16 @@
 
-domain.Event#hashCode()IV
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaí í("1*›
-1V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaì ì(ù
-ö
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaï ï('
-%0java.lang.Integer"__id*!*
-domain.Event"
-eventNumber"`
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javañ ñ(
-""B
+%domain.Event#getSport()Ldomain/Sport;T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaU U("1*⁄
+1T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaV	 V(ê
+ç
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaV	 V(
+%0domain.Sport"__id**
+domain.Event"
+sport"l
+T
+JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/Event.javaV V(
+
+%0domain.SportB
 domain.Event

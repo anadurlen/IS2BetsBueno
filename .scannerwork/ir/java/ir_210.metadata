@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#isLogin(Ljava/lang/String;Ljava/lang/String;)LRegistered;
+businessLogic.BLFacadeImplementation#findApustuAnitza(Ldomain/Registered;)Ljava/util/List;

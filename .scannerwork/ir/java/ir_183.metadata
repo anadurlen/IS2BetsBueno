@@ -1,1 +1,6 @@
-domain.Event#setLokala(LTeam;)V
+EmaitzakIpiniMockIntTest#instance-init#
+null
+businessLogic.BLFacadeImplementation#<init>(LDataAccess;)V
+domain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;LTeam;LTeam;)V
+businessLogic.BLFacadeImplementation#instance-init#
+domain.Event#instance-init#

@@ -1,1 +1,1 @@
-domain.ApustuAnitza#getApustuak()Ljava/util/ArrayList;
+domain.Event#<init>(Ljava/lang/String;Ljava/util/Date;LTeam;LTeam;)V

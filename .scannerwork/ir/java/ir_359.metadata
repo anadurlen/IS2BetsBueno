@@ -1,1 +1,3 @@
-domain.Transaction#setErabiltzailea(Ldomain/Registered;)V
+dataaccess.DataAccess#DiruaSartu(LRegistered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+domain.Transaction#<init>(LRegistered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+domain.Transaction#instance-init#

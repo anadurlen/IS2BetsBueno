@@ -1,2 +1,2 @@
-dataAccess.DataAccess#DiruaSartu(LRegistered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
-null
+domain.IntegerAdapter#marshal(Ljava/lang/Integer;)Ljava/lang/String;
+java.lang.Integer#toString()Ljava/lang/String;

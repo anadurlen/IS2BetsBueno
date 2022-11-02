@@ -1,1 +1,1 @@
-dataAccess.DataAccess#isLogin(Ljava/lang/String;Ljava/lang/String;)LRegistered;
+domain.Team#setEvents(Ljava/util/Vector;)V

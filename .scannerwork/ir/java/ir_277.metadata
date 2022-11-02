@@ -1,1 +1,1 @@
-domain.Quote#getQuote()Ljava/lang/Double;
+domain.Quote#removeApustua(LApustua;)V

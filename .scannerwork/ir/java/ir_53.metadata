@@ -1,1 +1,1 @@
-domain.Team#addEvent(LEvent;)V
+test.dataAccess.TestDataAccess#removeRegistered(LRegistered;)Z

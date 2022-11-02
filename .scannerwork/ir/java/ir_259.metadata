@@ -1,1 +1,1 @@
-domain.Sport#<init>()V
+domain.Sport#toString()Ljava/lang/String;

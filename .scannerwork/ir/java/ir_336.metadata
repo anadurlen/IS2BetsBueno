@@ -1,1 +1,3 @@
-domain.Registered#setJarraitutakoLista(Ljava/util/Vector;)V
+dataaccess.ObjectdbManagerServer#instance-init#
+javax.swing.JPanel#<init>()V
+javax.swing.JPanel#instance-init#

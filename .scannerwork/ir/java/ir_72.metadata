@@ -1,1 +1,1 @@
-domain.Jarraitzailea#<init>()V
+domain.Question#getQuestionNumber()Ljava/lang/Integer;

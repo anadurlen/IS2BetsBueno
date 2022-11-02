@@ -1,1 +1,2 @@
-domain.Question#getQuestion()Ljava/lang/String;
+gui.RegisteredGUI#<init>(LRegistered;)V
+gui.RegisteredGUI#initialize()V

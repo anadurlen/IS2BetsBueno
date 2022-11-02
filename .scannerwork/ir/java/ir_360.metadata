@@ -1,1 +1,8 @@
-domain.Transaction#getDirua()Ljava/lang/Double;
+dataaccess.DataAccess#ApustuaEgin(LRegistered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z
+null
+domain.Apustua#<init>(LApustuAnitza;LQuote;)V
+java.util.Date#<init>()V
+domain.Transaction#<init>(LRegistered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+java.util.Date#instance-init#
+domain.Apustua#instance-init#
+domain.Transaction#instance-init#

@@ -1,16 +1,16 @@
 
->domain.ApustuAnitza#getApustuAnitzaNumber()Ljava/lang/Integer;[
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaA A(%"1*ç
+0domain.ApustuAnitza#getUser()Ldomain/Registered;[
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java1 1("1*ˇ
 1[
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaB	 B(∞
-≠
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java2	 2(¢
+ü
 [
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaB	 B(
-%0java.lang.Integer"__id*/*-
-domain.ApustuAnitza"
-apustuAnitzaNumber"x
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java2	 2(
+%0domain.Registered"__id*!*
+domain.ApustuAnitza"
+user"x
 [
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaB B(
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java2 2(
 
-%0java.lang.IntegerB
+%0domain.RegisteredB
 domain.ApustuAnitza

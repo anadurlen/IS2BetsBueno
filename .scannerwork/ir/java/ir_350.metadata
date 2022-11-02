@@ -1,1 +1,2 @@
-domain.Registered#getBankAccount()Ljava/lang/Integer;
+dataaccess.DataAccess#storeQuote(Ljava/lang/String;Ljava/lang/Double;LQuestion;)LQuote;
+null

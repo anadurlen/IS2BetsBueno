@@ -1,1 +1,1 @@
-dataAccess.EmaitzakIpiniDAWTest#testEmaitzakIpini3()V
+domain.Registered#getApustuAnitzak()Ljava/util/Vector;

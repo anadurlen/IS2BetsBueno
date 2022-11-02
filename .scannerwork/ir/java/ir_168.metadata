@@ -1,1 +1,2 @@
-domain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;LTeam;LTeam;)V
+domain.Event#equals(Ljava/lang/Object;)Z
+java.lang.Object#getClass()Ljava/lang/Class;

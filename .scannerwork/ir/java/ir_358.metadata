@@ -1,1 +1,1 @@
-domain.Transaction#getErabiltzailea()Ldomain/Registered;
+dataaccess.DataAccess#findQuote(LQuestion;)Ljava/util/Collection;

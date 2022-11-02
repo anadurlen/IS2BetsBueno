@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#instance-init#
+businessLogic.BLFacadeImplementation#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V

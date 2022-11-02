@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#isRegister(Ljava/lang/String;)Z
+businessLogic.BLFacadeImplementation#apustuaEzabatu(Ldomain/Registered;Ldomain/ApustuAnitza;)V

@@ -1,4 +1,4 @@
-gui.KuotakIpiniGUI#paintDaysWithEvents(LJCalendar;Ljava/util/Vector;)V
+gui.ApustuaEginGUI#paintDaysWithEvents(LJCalendar;Ljava/util/Vector;)V
 java.util.Locale#getDefault()Ljava/util/Locale;
 java.util.Calendar#setTime(Ljava/util/Date;)V
 java.util.Locale#equals(Ljava/lang/Object;)Z

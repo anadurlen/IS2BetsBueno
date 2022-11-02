@@ -1,161 +1,161 @@
 
-;gui.RegisteredGUI#getJButtonDesLogin()Ljavax/swing/JButton;[
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‚ ‚(#"3*ò"
+Ggui.RegisteredGUI#getJButtonMugimenduakBistaratu()Ljavax/swing/JButton;[
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java“ “(/"3*Î"
 2[
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‰! ‰(/ˇ
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘- ‘(;ˇ
 ¸
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‰! ‰(F
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘- ‘(R
 %1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
-	Etiquetasëé
+	Etiquetasùö
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‰! ‰(\
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘- ‘(t
 %2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
 
-%1java.util.ResourceBundle*
-
-DesLogin2getString(Ljava/lang/String;)êç
+%1java.util.ResourceBundle*
+MugimenduakBistaratu2getString(Ljava/lang/String;)êç
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‰ ‰( 
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘% ‘(,
 %3javax.swing.JButton"javax.swing.JButtonŒ
 À
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‰ ‰(]
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘! ‘(u
 %4"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
 
 %3javax.swing.JButton*
 
-%2java.lang.String≠
-™
+%2java.lang.Stringπ
+∂
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‰ ‰(](
-gui.RegisteredGUI"
-jButtonDesLogin"__id*
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‘ ‘(u4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratu"__id*
 
-%3javax.swing.JButton≠
-™
+%3javax.swing.JButtonπ
+∂
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÂ Â(
-%5javax.swing.JButton"__id***(
-gui.RegisteredGUI"
-jButtonDesLoginx
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java’ ’(
+%5javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratux
 v
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÂ. Â(8	
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java’: ’(D	
 %6int"__id*
 ""ÑÅ
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÂ Â(#
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java’+ ’(/
 %7java.awt.Font"java.awt.Font…
 ∆
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÂ Â(=
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java’' ’(I
 %8"+java.awt.Font#<init>(Ljava/lang/String;II)V*
 
 %7java.awt.Font*
 
 Tahoma*
 	
-%6int*2ÏÈ
+%6int*2ÏÈ
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÂ Â(>
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java’ ’(J
 
 %9void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
 
 %5javax.swing.JButton*
 
-%7java.awt.Font2setFont(Ljava/awt/Font;)Æ
-´
+%7java.awt.Font2setFont(Ljava/awt/Font;)∫
+∑
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÊ Ê(
-%10javax.swing.JButton"__id***(
-gui.RegisteredGUI"
-jButtonDesLoginÖ
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java÷ ÷(
+%10javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuÖ
 Ç
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÊ! Ê(,
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java÷- ÷(7
 %11java.awt.Color"__id*
 ""˛˚
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÊ Ê(-
-%12void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java÷ ÷(8
+%12void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
 
 %10javax.swing.JButton*
 
-%11java.awt.Color2setForeground(Ljava/awt/Color;)Æ
-´
+%11java.awt.Color2setBackground(Ljava/awt/Color;)∫
+∑
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÁ Á(
-%13javax.swing.JButton"__id***(
-gui.RegisteredGUI"
-jButtonDesLoginÖ
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java◊ ◊(
+%13javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuÖ
 Ç
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÁ! Á(0
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java◊- ◊(<
 %14java.awt.Color"__id*
 ""˛˚
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÁ Á(1
-%15void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java◊ ◊(=
+%15void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
 
 %13javax.swing.JButton*
 
-%14java.awt.Color2setBackground(Ljava/awt/Color;)Æ
-´
+%14java.awt.Color2setForeground(Ljava/awt/Color;)∫
+∑
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaË Ë(
-%16javax.swing.JButton"__id***(
-gui.RegisteredGUI"
-jButtonDesLoginëé
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÿ ÿ(
+%16javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratuëé
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaË) Ë(7
-%17gui.RegisteredGUI$7"gui.RegisteredGUI$7°
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÿ5 ÿ(C
+%17gui.RegisteredGUI$6"gui.RegisteredGUI$6°
 û
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaË% Ó(
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÿ1 ›(
 %18"java.lang.Object#<init>()V*
 
-%17gui.RegisteredGUI$7≠™
+%17gui.RegisteredGUI$6≠™
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaË Ó(
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÿ ›(
 %19void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
 
 %16javax.swing.JButton*
 
-%17gui.RegisteredGUI$722addActionListener(Ljava/awt/event/ActionListener;)Æ
-´
+%17gui.RegisteredGUI$622addActionListener(Ljava/awt/event/ActionListener;)∫
+∑
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÔ Ô(
-%20javax.swing.JButton"__id***(
-gui.RegisteredGUI"
-jButtonDesLogin‹Ÿ
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaﬁ ﬁ(
+%20javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratu€ÿ
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÔ Ô(/
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaﬁ ﬁ(:
 %21void"#java.awt.Component#setBounds(IIII)V*
 
-%20javax.swing.JButton*2”*2‰*2ü*212setBounds(IIII)*
-1*ò
+%20javax.swing.JButton*2
+*2Æ*2ö*2D2setBounds(IIII)*
+1*§
 3[
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java„ „(≠
-™
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java” ”(!π
+∂
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java„ „(
-%0javax.swing.JButton"__id***(
-gui.RegisteredGUI"
-jButtonDesLogin*
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java” ”(!
+%0javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratu*
 2
-1*é
+1*ö
 1[
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÒ	 Ò(Æ
-´
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‡	 ‡($∫
+∑
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÒ	 Ò(
-%22javax.swing.JButton"__id***(
-gui.RegisteredGUI"
-jButtonDesLogin"{
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‡	 ‡($
+%22javax.swing.JButton"__id*6*4
+gui.RegisteredGUI"
+jButtonMugimenduakBistaratu"{
 [
-OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.javaÒ Ò(
+OC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/RegisteredGUI.java‡ ‡(%
 
 %22javax.swing.JButtonB
 gui.RegisteredGUI

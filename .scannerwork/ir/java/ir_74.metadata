@@ -1,1 +1,1 @@
-domain.Jarraitzailea#getJarraitzaileaNumber()Ljava/lang/Integer;
+domain.Question#getQuestion()Ljava/lang/String;

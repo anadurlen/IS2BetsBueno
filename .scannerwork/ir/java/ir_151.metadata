@@ -1,1 +1,1 @@
-domain.ApustuAnitza#setApustuak(Ljava/util/ArrayList;)V
+domain.Event#getEventNumber()Ljava/lang/Integer;

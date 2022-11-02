@@ -1,1 +1,2 @@
-gui.FindQuestionsGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V
+dataaccess.DataAccess#rankingLortu()Ljava/util/List;
+java.util.ArrayList#<init>()V

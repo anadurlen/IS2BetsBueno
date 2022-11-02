@@ -1,1 +1,1 @@
-dataAccess.DataAccess#ezJarraituTaldea(LRegistered;)V
+domain.Jarraitzailea#getData()Ljava/util/Date;

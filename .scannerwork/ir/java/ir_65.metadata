@@ -1,2 +1,1 @@
-domain.IntegerAdapter#marshal(Ljava/lang/Integer;)Ljava/lang/String;
-java.lang.Integer#toString()Ljava/lang/String;
+test.dataAccess.TestDataAccess#removedSport1(Ljava/lang/String;)V

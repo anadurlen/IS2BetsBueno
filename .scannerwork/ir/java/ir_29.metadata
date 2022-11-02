@@ -1,1 +1,1 @@
-dataAccess.DataAccess#findTransakzioak(LRegistered;)Ljava/util/List;
+gui.GertaerakSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

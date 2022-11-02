@@ -1,1 +1,1 @@
-dataAccess.DataAccess#saldoaBistaratu(LRegistered;)Ljava/lang/String;
+domain.Jarraitzailea#getJarraitzaileaNumber()Ljava/lang/Integer;

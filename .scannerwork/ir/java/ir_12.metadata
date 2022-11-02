@@ -1,1 +1,1 @@
-dataAccess.DataAccess#isRegister(Ljava/lang/String;)Z
+domain.Team#addEvent(LEvent;)V

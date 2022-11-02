@@ -1,1 +1,1 @@
-exceptions.ApustuaAlreadyExist#instance-init#
+domain.Registered#getMode()Ljava/lang/String;

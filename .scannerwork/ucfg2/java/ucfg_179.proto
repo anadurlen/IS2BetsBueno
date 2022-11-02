@@ -1,145 +1,72 @@
 
--gui.AdminGUI#getBoton3()Ljavax/swing/JButton;V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javañ ñ("3*¿
-2V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaò ò(&ãà
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaò ò($
-%1javax.swing.JButton"javax.swing.JButtonù
-ö
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaò ò(&
-%2"javax.swing.JButton#<init>()V*
-
-%1javax.swing.JButtonß
-§
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaò ò(&'
-gui.AdminGUI"
-jButtonQueryQueries"__id*
-
-%1javax.swing.JButtonß
-§
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaô ô(
-%3javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonQueryQueries~
-|
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaô% ô(4
-%4java.awt.Color"__id*
-""ˆÛ
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaô ô(5
-
-%5void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
-
-%3javax.swing.JButton*
-
-%4java.awt.Color2setForeground(Ljava/awt/Color;)ß
-§
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaö ö(
-%6javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonQueryQueries~
-|
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaö% ö(/
-%7java.awt.Color"__id*
-""ˆÛ
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaö ö(0
-
-%8void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
-
-%6javax.swing.JButton*
-
-%7java.awt.Color2setBackground(Ljava/awt/Color;)ß
-§
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaõ õ(
-%9javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonQueryQueries‘—
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaõ õ(1
-%10void"#java.awt.Component#setBounds(IIII)V*
-
-%9javax.swing.JButton*2
-*2,*2’*22setBounds(IIII)®
-•
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaú ú(
-%11javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonQueryQueries˚
-¯
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaú ú(D
-%12java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
-java.util.ResourceBundle*
-	Etiquetasíè
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaú ú(^
-%13java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
-
-%12java.util.ResourceBundle*
-QueryQueries2getString(Ljava/lang/String;)˜Ù
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaú ú(_
-%14void"7javax.swing.AbstractButton#setText(Ljava/lang/String;)V*
+}businessLogic.BLFacadeImplementation#ApustuaEgin(Ldomain/Registered;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Zn
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java∆ ∆("startingBlock*˙
+startingBlockn
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java∆ ∆(eÆ
+´
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java≈ ≈(
+%0"
+__annotate*
+	WebMethod*
+
+udomain.Registered°
+û
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java∆* ∆(+
+udomain.Registered"__annotation*
+
+%0≠
+™
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java≈ ≈(
+%1"
+__annotate*
+	WebMethod*
+
+qjava.util.Vector†
+ù
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java∆; ∆(<
+qjava.util.Vector"__annotation*
+
+%1≤
+Ø
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java≈ ≈(
+%2"
+__annotate*
+	WebMethod*
 
-%11javax.swing.JButton*
-
-%13java.lang.String2setText(Ljava/lang/String;)®
-•
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaù ù(
-%15javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonQueryQueries∑
-¥
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaù) †($
-%16java.awt.event.ActionListener"__declareFunction*!
-__sonar_lambda_2$gui.AdminGUIm
-k
-
-__unknown_file (7
+balioajava.lang.Double•
+¢
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java∆E ∆(K
+balioajava.lang.Double"__annotation*
+
+%2º
+π
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java≈ ≈(
+%3"
+__annotate*
+	WebMethod*&
 $
-%16java.awt.event.ActionListener"
-AdminGUI.this"__id*
-gui.AdminGUI≤Ø
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaù †(
-%18void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
-
-%15javax.swing.JButton*&
-$
-%16java.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)*
-1*ç
-3V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaó ó(ß
-§
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.javaó ó(
-%0javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonQueryQueries*
-2
-1*˛
-1V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.java¢	 ¢(®
-•
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.java¢	 ¢(
-%19javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonQueryQueries"v
-V
-JC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/gui/AdminGUI.java¢ ¢(
-
-%19javax.swing.JButtonB
-gui.AdminGUI
+apustuaGalarazijava.lang.IntegerØ
+¨
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java∆U ∆(d$
+apustuaGalarazijava.lang.Integer"__annotation*
+
+%3*
+1*Ì
+1n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java« «("x
+n
+bC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/businessLogic/BLFacadeImplementation.java   (
+"":
+udomain.Registered:
+qjava.util.Vector:
+balioajava.lang.Double:$
+apustuaGalarazijava.lang.IntegerB(&
+$businessLogic.BLFacadeImplementation

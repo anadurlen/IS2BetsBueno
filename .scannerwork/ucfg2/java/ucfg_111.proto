@@ -1,16 +1,16 @@
 
--domain.ApustuAnitza#getData()Ljava/util/Date;[
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaI I("1*ù
+1domain.ApustuAnitza#getBalioa()Ljava/lang/Double;[
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java9 9("1*ÿ
 1[
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaJ	 J(Ÿ
-œ
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java:	 :(£
+ 
 [
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaJ	 J(
-%0java.util.Date"__id*!*
-domain.ApustuAnitza"
-data"u
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java:	 :(
+%0java.lang.Double"__id*#*!
+domain.ApustuAnitza"
+balioa"w
 [
-QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.javaJ J(
-
-%0java.util.DateB
+QC:/Users/jonor/eclipse-workspace/Bet22Lite/src/main/java/domain/ApustuAnitza.java: :(
+
+%0java.lang.DoubleB
 domain.ApustuAnitza

@@ -1,1 +1,1 @@
-domain.Transaction#setData(Ljava/util/Date;)V
+dataaccess.DataAccess#findApustuAnitza(LRegistered;)Ljava/util/List;

@@ -1,1 +1,1 @@
-gui.GertaeraInfo#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+exceptions.ApustuaAlreadyExist#<init>(Ljava/lang/String;)V

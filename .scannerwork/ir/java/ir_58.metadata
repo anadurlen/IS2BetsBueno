@@ -1,1 +1,3 @@
-exceptions.EventNotFinished#<init>(Ljava/lang/String;)V
+test.dataAccess.TestDataAccess#addTeam(Ljava/lang/String;)V
+domain.Team#<init>(Ljava/lang/String;)V
+domain.Team#instance-init#

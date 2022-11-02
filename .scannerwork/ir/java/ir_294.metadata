@@ -1,1 +1,1 @@
-exceptions.QuoteAlreadyExist#<init>(Ljava/lang/String;)V
+exceptions.QuestionAlreadyExist#<init>(Ljava/lang/String;)V

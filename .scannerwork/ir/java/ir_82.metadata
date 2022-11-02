@@ -1,3 +1,2 @@
-gui.TaldeaJarraituGUI#instance-init#
-javax.swing.DefaultListModel#instance-init#
-javax.swing.DefaultListModel#<init>()V
+domain.Question#addQuote(Ljava/lang/Double;Ljava/lang/String;Ldomain/Question;)LQuote;
+null

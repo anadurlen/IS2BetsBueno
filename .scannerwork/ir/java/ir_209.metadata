@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#initializeBD()V
+businessLogic.BLFacadeImplementation#findApustua(Ldomain/Registered;)Ljava/util/List;

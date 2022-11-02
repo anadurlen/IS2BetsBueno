@@ -1,1 +1,1 @@
-dataAccess.DataAccess#findQuestionFromQuote(LQuote;)Ldomain/Question;
+gui.GertaeraEzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
