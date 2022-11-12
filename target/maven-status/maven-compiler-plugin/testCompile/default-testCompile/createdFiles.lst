@@ -1,3 +1,7 @@
-businessLogic\EmaitzakIpiniMockIntTest.class
-dataAccess\EmaitzakIpiniDABTest.class
-dataAccess\EmaitzakIpiniDAWTest.class
+GertaerakSortuMockIntTest.class
+test/dataAccess/TestDataAccess.class
+GertaerakSortuDAWTest.class
+EmaitzakIpiniDAWTest.class
+EmaitzakIpiniDABTest.class
+GertaerakSortuDABTest.class
+EmaitzakIpiniMockIntTest.class

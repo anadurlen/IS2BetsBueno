@@ -1,3 +1,0 @@
-dataaccess.DataAccess#gertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)Z
-java.lang.String#equals(Ljava/lang/Object;)Z
-dataaccess.DataAccess#fillEvent(Ljava/lang/String;Ljava/util/Date;Ldomain/Sport;)Ldomain/Event;

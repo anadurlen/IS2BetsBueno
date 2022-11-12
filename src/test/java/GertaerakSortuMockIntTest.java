@@ -23,10 +23,11 @@ import exceptions.EventFinished;
 public class GertaerakSortuMockIntTest {
 	
 	@Mock
-	DataAccess da;
+	DataAccess da=Mockito.mock(DataAccess.class);
+	
 	
 	@InjectMocks
-	BLFacade sut;
+	BLFacade sut=new BLFacadeImplementation(da);
 
 	Calendar today = Calendar.getInstance();
 	String description;
@@ -49,10 +50,12 @@ public class GertaerakSortuMockIntTest {
 				
 			// Mockito.doReturn(true).when(da.mismaDescripcion(description, date));
 			// Mockito.doReturn(true).when(da.sportIsNull(sport));
+			
+			Mockito.doReturn(false).when(da).gertaerakSortu(Mockito.any(String.class), Mockito.any(Date.class), Mockito.any(String.class));
 				
 			try {
 				boolean res = sut.gertaerakSortu(description, date, sport);
-				assertEquals(true, res);
+				assertEquals(false, res);
 			}catch (Exception e){
 				e.printStackTrace();
 
@@ -74,6 +77,8 @@ public class GertaerakSortuMockIntTest {
 				
 			// Mockito.doReturn(false).when(da.mismaDescripcion(description, date));
 			// Mockito.doReturn(true).when(da.sportIsNull(sport));
+			
+			Mockito.doReturn(false).when(da).gertaerakSortu(Mockito.any(String.class), Mockito.any(Date.class), Mockito.any(String.class));
 				
 			try {
 				boolean res = sut.gertaerakSortu(description, date, sport);

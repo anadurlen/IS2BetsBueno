@@ -139,16 +139,19 @@ public class GertaerakSortuDAWTest {
 	@Test
 	public void test5() {
 		
-		boolean expected = false;
+		
 		
 		descripcion = null;
 		date = UtilDate.newDate(today.get(Calendar.YEAR), (today.get(Calendar.MONTH)+1), 17);
 		s = "Tennis";
 		
-		dt.gertaerakSortu(descripcion, date, s);
-		boolean result = dt.gertaerakSortu(descripcion, date, s);
+		try {
+			dt.gertaerakSortu(descripcion, date, s);
+		}catch(Exception e) {
+			assertTrue(true);
+			System.out.println("La descripción no puede ser null");
+		}
 		
-		assertEquals(expected, result);
 				
 		for (Event ev : dt.getEvents(date)) {
 			if (ev.getDescription().equals(descripcion)) {
