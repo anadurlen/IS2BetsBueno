@@ -24,6 +24,8 @@ import exceptions.EventFinished;
 import exceptions.EventNotFinished;
 import exceptions.QuestionAlreadyExist;
 import exceptions.QuoteAlreadyExist;
+import iterator.ExtendedIterator;
+import iterator.ExtendedIteratorEvents;
 
 /**
  * It implements the business logic as a web service.
@@ -378,6 +380,11 @@ public class BLFacadeImplementation  implements BLFacade {
 		Sport team = dbManager.findSport(q);
 		dbManager.close();
 		return team;
+	}
+	
+	@Override
+	public ExtendedIterator<Event> getEventsIterator(Date date) {
+		return new ExtendedIteratorEvents(getEvents(date));
 	}
 }
 

@@ -22,6 +22,7 @@ import exceptions.EventFinished;
 import exceptions.EventNotFinished;
 import exceptions.QuestionAlreadyExist;
 import exceptions.QuoteAlreadyExist;
+import iterator.ExtendedIterator;
 
 /**
  * Interface that specifies the business logic.
@@ -129,4 +130,6 @@ public interface BLFacade  {
 	@WebMethod public Team findTeam(Registered u);
 	
 	@WebMethod public Sport findSport(Event q);
+	
+	@WebMethod public ExtendedIterator<Event> getEventsIterator(Date date);
 }
