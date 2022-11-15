@@ -15,7 +15,7 @@ import javax.xml.bind.annotation.XmlIDREF;
 
 @Entity
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Registered  implements Serializable{
+public class Registered extends User implements Serializable{
 	
 	@Id
 	@XmlID

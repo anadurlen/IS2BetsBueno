@@ -111,6 +111,18 @@ public class RegisteredGUI extends JFrame {
 			jContentPane.add(getJButtonDesLogin());
 			jContentPane.add(getBtnRank());
 			jContentPane.add(getBtnDestacados());
+			
+			JButton btnNewButton_1 = new JButton(ResourceBundle.getBundle("Etiquetas").getString("RegisteredGUI.btnNewButton_1.text")); //$NON-NLS-1$ //$NON-NLS-2$
+			btnNewButton_1.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					JFrame wt = new WindowTable(user);
+					wt.setVisible(true);
+				}
+			});
+			btnNewButton_1.setBackground(new Color(255, 128, 128));
+			btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
+			btnNewButton_1.setBounds(10, 391, 282, 68);
+			jContentPane.add(btnNewButton_1);
 		}
 		return jContentPane;
 	}
